@@ -1,0 +1,101 @@
+
+  @font-face {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Karla:wght@200&family=Roboto:wght@100;300&display=swap');
+  }
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    padding: 40px;
+    /* background-color: antiquewhite; */
+}
+
+.nav-bar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    background: cadetblue;
+    padding: 0px 15%;
+}
+.banner{
+    background: linear-gradient(161deg,#00000078,#00000052), url(../img/bg.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.banner h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-stretch: condensed;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+.nav-list ul {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.banner li{ 
+    padding: 0px 20px;
+    list-style-type: none;
+    padding: 12px 20px;
+}
+.banner a{
+    color: #f7f3f3e0;
+    text-decoration: none;
+    text-transform: capitalize;
+    height: inherit;
+    
+}
+
+.first-child{
+    border-bottom: 2px solid white;
+    padding: 20px 0px;
+}
+.nav-list a:hover{
+    border-bottom: 2px solid white;
+    padding: 20px 0px;
+}
+.heading {
+    height: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+    letter-spacing: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f3f3e0;
+}
